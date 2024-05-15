@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#AEE6ED"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentTimesActivity">
+    <TextView
+        android:id="@+id/tv_welcome_app"
+        android:text="Welcome, please buy to use"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginHorizontal="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:paddingVertical="12dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_buy_5"
+                android:text="@string/buy_5"
+                android:textSize="28sp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_buy_10"
+                android:text="@string/buy_10"
+                android:layout_marginTop="4dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_buy_15"
+                android:text="@string/buy_15"
+                android:layout_marginTop="4dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_buy_prem_week"
+                android:text="@string/sub_time"
+                android:layout_marginTop="4dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_exit_app"
+        android:text="Exit"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

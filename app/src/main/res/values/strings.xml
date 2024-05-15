@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TableLED</string>
+    <string name="slide_text">❤️❤️❤️❤️</string>
+    <string name="buy_5">Buy 5</string>
+    <string name="buy_10">Buy 10</string>
+    <string name="buy_15">Buy 15</string>
+    <string name="sub_time">Sub Time</string>
+</resources>
